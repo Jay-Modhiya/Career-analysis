@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex; /* Added to layout the container and image side by side */
+    justify-content: flex-end; /* Added to align the container to the right */
+}
+
+.container {
+    width: 40%;
+    margin: 20px; /* Added to provide space around the container */
+    padding: 20px;
+    border: 1px solid #b06565;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+input, select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+label { /* Added to style the labels */
+    font-weight: bold; /* Makes the label text bold */
+    margin-bottom: 5px; /* Adds some space below the label */
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Added to style the image */
+.image {
+    width: 40%; /* Adjust as needed */
+    margin: 20px; /* Provides space around the image */
+}
